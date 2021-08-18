@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgreen;
+
+}
+h1{
+    background-color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    background-color: mediumspringgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

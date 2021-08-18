@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Gradiente</title>
+    <style>
+        * {
+            /* Asterisco é usado para dar uma configuração global no css */
+            height: 100%;
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, rgb(0, 174, 255), blue, darkblue)
+                /* o primeiro parametro entre parenteses é para onde o gradiente ira se mover to right(para direita) to left(para esquerda) to top(para cima) to bottom(para baixo).
+            Pode tambem usar o gradiente em circulo: radial-gradient(circle , cores,cores,cores)*/
+            ;
+            background-attachment: fixed;
+            /* faz com que o fundo ou degrade fique fixo mesmo que coloque conteudo na pagina ou seja ele nao termina (tente fazer o site sem esse comando)  */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+
+</html>
