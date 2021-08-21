@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');/* Link de fontes do fonts.google.com */
+
+
+body{
+    font-family: monospace;
+    /* font-weight: ; */
+    font-style: italic;
+    text-decoration:underline;
+    /* 
+    Medidas Absolutas 
+        cm,mm,in(polegadas),px,pt,pc
+    
+    
+    Medidas relativas
+        em (altura M maiúscula),ex(altura X),rem,vw,vh,%
+
+        weight(Peso), Whidt(largura), height(altura)
+        
+        Tipos de peso :
+            lighter(leve ou fino) normal, bold(grossa) bolder(muito grossa)
+    */
+}
+h1{
+       /* Shorthand font
+      .font-size -> font-weight -> font-size -> font-family 
+       
+       font-family: 'Work Sans' , sans-serif;
+       font-weight: bolder;
+       font-size: 3em;
+       font-style: italic;
+       
+       */
+       /* Simplificando a descrição acima */
+       font: italic bolder 3em 'Bebas Neue', cursive;
+}
