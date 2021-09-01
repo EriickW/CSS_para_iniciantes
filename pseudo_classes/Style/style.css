@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+div{
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height:200px ;/* altura */
+    width: 200px ;/* largura */
+    display: inline-block;
+}
+div:hover{/* os dois pontos servem para indicar uma pseudo classe como no caso foi escolido o "hover" que significa quando o mause passar ele vai ter uma interação */
+    background-color: lightpink;
+}

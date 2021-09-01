@@ -1,0 +1,24 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+a {/* CHILDREN = > */
+    color: darkmagenta;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{/* O visited é uma pseudo classe que usada em links quando o site que eles levam ja foram visitados podendo dar alguma animação ou mudar de cor */
+    color: darkorange;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+a:active{/* O active é quando o link for clicado ou segurado  */
+    color: chartreuse;
+}
+a::after{/* Os "::" significam pseudo elementos, o after indica que depois de todos os links havera algo  */
+    content: ' [link]';/* content significa conteudo */
+}
+a::before{
+    content: "=> ";
+}

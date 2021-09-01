@@ -1,0 +1,12 @@
+div > p{/* quando é usado o sinal">" indica que o elemento tem um "filho" e que ele deve ser alterado */
+    display: none;
+}
+div:hover > p{
+display: block;
+color: green;
+background-color: yellow;
+width: 300px;
+}
+div:hover{
+    color: red;
+}
