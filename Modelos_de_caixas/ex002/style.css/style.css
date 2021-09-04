@@ -1,0 +1,20 @@
+body{
+     margin: 0;
+}
+#barra{
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    background: #000;
+    color: white;
+}

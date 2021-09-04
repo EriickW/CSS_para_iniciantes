@@ -1,0 +1,12 @@
+h1{
+    /* border-width: 5px;
+    border-color: blueviolet;
+    border-style: solid;
+    padding: 10px;
+    margin: auto; */
+
+    border: 10px solid gold;/* ( Sequencia width(largura),style,color) */
+    padding:10px 10px 10px 10px;/* Sequencia topo(top),direita(right),baixo(bottom),esquerda(left)*/
+    margin: 10px 20px 10px 20px;/* Sequencia topo(top),direita(right),baixo(bottom),esquerda(left)*/
+    outline: 5px dashed blue;/* Sequencia espessura(width),style,color */
+}

@@ -1,0 +1,16 @@
+.c1{
+  background-color: aqua; 
+  height:200px;
+  text-align: center;
+  box-shadow: 1px 1px 1px black ; /* sequencia  deslocamento horizontal, deslocamento vertical , espalhamento e a cor  */
+}
+.c2{
+    background-color: rgb(17, 0, 255); 
+  height:200px;
+  text-align: center;
+}
+.c3{
+    background-color: rgb(226, 8, 255); 
+  height:200px;
+  text-align: center;
+}
