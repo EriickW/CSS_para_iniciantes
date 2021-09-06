@@ -1,0 +1,6 @@
+.caixa{
+    background-color: aqua;
+    border-radius: 10px;/* A sequencia de informações são top-left(emcima a esquerda),top-right(emcima a direita) bottom-right(embaixo a direita) e bottom-left(embaixo a esquerda */
+    width: 200px;
+    height: 300px;
+}
