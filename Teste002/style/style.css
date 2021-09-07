@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+#barra{
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px;
+
+}
+#barra > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#barra > a:hover{
+    background: #000;
+    color: white;
+}
+.texto{
+    background-color: rgba(211, 211, 211, 0.384);
+    padding: 20px;
+    width: 1325px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+footer{
+    background-color: lightslategray;
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+.final > a{
+    text-decoration: none;
+    color: white;
+}

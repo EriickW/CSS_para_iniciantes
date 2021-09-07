@@ -1,0 +1,134 @@
+:root{
+    --laranja:#FF8200;
+    --preto:#221E22;
+    --amarelo:#F9DC5C;
+    --vermelho:#FF0000;
+    --azul:#93B7BE;
+}
+*{ 
+    margin: 0; 
+      padding: 0;
+      box-sizing: border-box;
+   
+   }
+   
+   .corpo {
+       background-color: #221E22;
+       color: white;
+       
+   }
+   .margin{
+      padding-top: 20px;
+   }
+
+
+
+.navbar{
+    background: rgb(252,176,69);
+background: linear-gradient(90deg, rgba(252,176,69,1) 10%, rgba(250,194,61,1) 18%, rgba(254,226,82,1) 77%, rgba(245,252,69,1) 97%);
+   
+}
+.quem-somos{
+    background-color: var(--preto);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+}
+.bg-footer{
+    background-color: var(--amarelo);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+}
+.pacote{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(63, 13, 13, 0.5)100%), url("../img/geisi1.jpeg ") no-repeat right top fixed ;
+    
+    height:500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+ .descricao , .titulo{
+     width: 50%;
+     margin-left: 10px;
+     
+     
+ }
+
+.filme-principal .container{
+    width: 40%;
+    margin-left: 20px;
+}
+.box-img{
+    height: 300px;
+    width: 400px;
+    display: block;
+    
+    
+}
+
+
+.box-img:hover  {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: .3s ease all;
+}
+
+.carrosel-img{
+    margin-top: 5px;
+}
+.row{
+    margin-top: 20px;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .3s ease all;/*cria um efeito de transição em algum efeito relacionado a classe*/
+    border-radius: 5px;
+}
+.botao:hover{/*hover faz com qu quando o mause estiver em cima ele execute uma ação*/
+   background-color: var(--amarelo);
+    color: black;
+}
+.text-muted{
+    color: var(--amarelo);
+}
+.botao i{
+    margin-right: 5px;
+}
+.titulo{
+    font-family: "Lobster";
+}
+.titulo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.botaoT{
+    text-decoration: none;
+    color: white;
+}
+.botaoT:hover{
+    color: black;
+}
+.desenhos{
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
