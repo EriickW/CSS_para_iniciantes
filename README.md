@@ -6,6 +6,3 @@
 
 
 
-### Comandos no VS code 
-
-- ctrl+Shift+p ( abre central de comandos)

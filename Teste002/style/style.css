@@ -1,13 +1,34 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: "android";
-    src: url(/fontes/idroid.otf);
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
 }
+:root/*pseudo classe que permite criar variaveis globais e toda variavel deve começar com dois -- */{
+    --cor0: #84E1AD;
+    --cor1: #00E742;
+    --cor2: #35b635;
+    --cor3: #04a004;
+    --cor4: #006400;
+    --cor5: #003500;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bevas Neue', cursive;
+    --font-android: 'android', cursive;
+}
+
 body{
     margin: 0;
     background-color: #84E1AD;
+    font-family: var(--fonte-padrao);
+}
+header > h1{
+    font-family: var(--fonte-destaque);
 }
 #barra{
-    background-image:linear-gradient(to bottom , #00E742, rgb(53, 182, 53), rgb(40, 114, 6));
+    background:linear-gradient(to bottom , var(--cor1), var(--cor2),var(--cor4));
+
     text-decoration: none;
     padding: 10px;
     margin: 0px;
@@ -48,6 +69,6 @@ footer{
     font-family: "android";
 }
 h2{
-    font-family: "android";background-color: #84E1AD;
-    color: #00E742;
+    font-family: "android";background-color: var(--cor0);
+    color: var(--cor1);
 }
